@@ -22,4 +22,4 @@ s = '.'
 print(IPtext)
 print('Words:', lenText)
 print('Stans:', lenPredText)
-print(s.join(PredText[-3:]))
+print(s.join(PredText[len(PredText) -3 :]))
